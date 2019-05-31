@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53A8A7298A5430D050000B31 /* Pods_THN_ArKitCollection1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EE8BC4630FA0164C526970 /* Pods_THN_ArKitCollection1.framework */; };
 		BE1D214F22A1530700834AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D214E22A1530700834AA6 /* AppDelegate.swift */; };
 		BE1D215122A1530700834AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D215022A1530700834AA6 /* ViewController.swift */; };
-		BE1D215422A1530700834AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1D215222A1530700834AA6 /* Main.storyboard */; };
 		BE1D215622A1530900834AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1D215522A1530900834AA6 /* Assets.xcassets */; };
 		BE1D215922A1530900834AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1D215722A1530900834AA6 /* LaunchScreen.storyboard */; };
+		BE1D216122A156F200834AA6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D216022A156F200834AA6 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D630730EAC579BCF6C61158 /* Pods-THN-ArKitCollection1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THN-ArKitCollection1.debug.xcconfig"; path = "Target Support Files/Pods-THN-ArKitCollection1/Pods-THN-ArKitCollection1.debug.xcconfig"; sourceTree = "<group>"; };
+		A717E5E681C8160CDFE69313 /* Pods-THN-ArKitCollection1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THN-ArKitCollection1.release.xcconfig"; path = "Target Support Files/Pods-THN-ArKitCollection1/Pods-THN-ArKitCollection1.release.xcconfig"; sourceTree = "<group>"; };
 		BE1D214B22A1530700834AA6 /* THN-ArKitCollection1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "THN-ArKitCollection1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1D214E22A1530700834AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE1D215022A1530700834AA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE1D215322A1530700834AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE1D215522A1530900834AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE1D215822A1530900834AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE1D215A22A1530900834AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1D216022A156F200834AA6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2EE8BC4630FA0164C526970 /* Pods_THN_ArKitCollection1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THN_ArKitCollection1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A8A7298A5430D050000B31 /* Pods_THN_ArKitCollection1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E5CD5F08452B535A1F3FA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D630730EAC579BCF6C61158 /* Pods-THN-ArKitCollection1.debug.xcconfig */,
+				A717E5E681C8160CDFE69313 /* Pods-THN-ArKitCollection1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFD51F11E6BAE6DCB9F2010C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2EE8BC4630FA0164C526970 /* Pods_THN_ArKitCollection1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE1D214222A1530700834AA6 = {
 			isa = PBXGroup;
 			children = (
 				BE1D214D22A1530700834AA6 /* THN-ArKitCollection1 */,
 				BE1D214C22A1530700834AA6 /* Products */,
+				8E5CD5F08452B535A1F3FA28 /* Pods */,
+				AFD51F11E6BAE6DCB9F2010C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +80,7 @@
 			children = (
 				BE1D214E22A1530700834AA6 /* AppDelegate.swift */,
 				BE1D215022A1530700834AA6 /* ViewController.swift */,
-				BE1D215222A1530700834AA6 /* Main.storyboard */,
+				BE1D216022A156F200834AA6 /* Extensions.swift */,
 				BE1D215522A1530900834AA6 /* Assets.xcassets */,
 				BE1D215722A1530900834AA6 /* LaunchScreen.storyboard */,
 				BE1D215A22A1530900834AA6 /* Info.plist */,
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE1D215D22A1530900834AA6 /* Build configuration list for PBXNativeTarget "THN-ArKitCollection1" */;
 			buildPhases = (
+				49EF55EC4898E663EBF304EC /* [CP] Check Pods Manifest.lock */,
 				BE1D214722A1530700834AA6 /* Sources */,
 				BE1D214822A1530700834AA6 /* Frameworks */,
 				BE1D214922A1530700834AA6 /* Resources */,
+				B0FAB292E24C39F001D3FD53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +150,57 @@
 			files = (
 				BE1D215922A1530900834AA6 /* LaunchScreen.storyboard in Resources */,
 				BE1D215622A1530900834AA6 /* Assets.xcassets in Resources */,
-				BE1D215422A1530700834AA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49EF55EC4898E663EBF304EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THN-ArKitCollection1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0FAB292E24C39F001D3FD53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THN-ArKitCollection1/Pods-THN-ArKitCollection1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THN-ArKitCollection1/Pods-THN-ArKitCollection1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE1D214722A1530700834AA6 /* Sources */ = {
@@ -136,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1D215122A1530700834AA6 /* ViewController.swift in Sources */,
+				BE1D216122A156F200834AA6 /* Extensions.swift in Sources */,
 				BE1D214F22A1530700834AA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE1D215222A1530700834AA6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE1D215322A1530700834AA6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE1D215722A1530900834AA6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +345,7 @@
 		};
 		BE1D215E22A1530900834AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D630730EAC579BCF6C61158 /* Pods-THN-ArKitCollection1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +364,7 @@
 		};
 		BE1D215F22A1530900834AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A717E5E681C8160CDFE69313 /* Pods-THN-ArKitCollection1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
